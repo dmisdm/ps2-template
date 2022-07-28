@@ -28,7 +28,6 @@ ENV JAVA_HOME=/usr/lib/jvm/jdk-15.0.2
 ENV PATH=$PATH:$JAVA_HOME/bin
 
 
-
 RUN chmod +x /start_server.sh
 
 # RUN chmod +x ./MinecraftToolsLinux/Install_API

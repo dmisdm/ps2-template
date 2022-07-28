@@ -36,15 +36,17 @@
       },
 
       // Add the IDs of extensions you want installed when the container is created.
-      "extensions": ["ms-python.python", "ms-python.vscode-pylance", "paperfanz.lc3-assembly"]
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "paperfanz.lc3-assembly",
+        "discretegames.f5anything"
+      ]
     }
   },
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [
-    25565,
-    4711
-  ],
+  "forwardPorts": [25565, 4711],
 
   // Use 'postCreateCommand' to run commands after the container is created.
   // "postCreateCommand": "pip3 install --user -r requirements.txt",
