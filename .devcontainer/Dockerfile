@@ -10,7 +10,7 @@ RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/
 
 
 COPY ./.devcontainer/MinecraftToolsLinux.zip .
-ADD https://github.com/dmisdm/ps2-template/releases/download/jdk-15/jdk-15.0.2_linux-x64_bin.deb .
+ADD https://github.com/rmit-computing-technologies/COSC2804-project-template-TEST/releases/download/jdk-15/jdk-15.0.2_linux-x64_bin.deb .
 COPY ./.devcontainer/start_server.sh .
 
 RUN unzip MinecraftToolsLinux.zip

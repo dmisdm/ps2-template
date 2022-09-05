@@ -8,7 +8,8 @@
       "name": "Start Minecraft Server",
       "type": "f5anything",
       "request": "launch",
-      "command": "/start_server.sh"
+      "command": "/start_server.sh",
+      "terminalName": "Minecraft Server"
     }
   ]
 }
